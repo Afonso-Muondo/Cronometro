@@ -1,0 +1,30 @@
+body {
+    background: orange;
+    text-align: center;
+    color: white;
+}
+
+h1, h2 {
+    font: normal 2.5em arial;
+}
+
+span {
+    font: normal 2.5em arial;
+}
+
+button {
+    font: normal 1.5em arial;
+    color: white;
+    background: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid white 1px;
+}
+
+button:hover {
+    color: orange;
+    background: white;
+    cursor: pointer;
+    transition: .5s;
+}
